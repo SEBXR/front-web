@@ -3,12 +3,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="refresh" content="0;url=hpages/listeEncheres.php">
+        <!-- <meta http-equiv="refresh" content="0;url=hpages/listeEncheres.php"> -->
         <title>Accueil</title>
     </head>
     <body>
         <script>
-            window.href.location= "./pages/listeEncheres.php"
+            window.location.href= "./pages/listeEncheres.php"
         </script>
     </body>
 </html>
