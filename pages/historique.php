@@ -1,5 +1,5 @@
 <?php
-    require('../inc/treatURL.php');
+    require('../inc/treatUrl.php');
     session_start();
     if(isset($_GET["id"]) && !isset($_SESSION["id"])){
         $_SESSION["id"]=$_GET["id"];

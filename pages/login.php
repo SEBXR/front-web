@@ -19,8 +19,8 @@
         <form class="box" id="login">
             <img src="../assets/img/login.png" width="120" height="120">
             <h1>Connexion</h1>
-            <input type="text" placeholder="Email" required="" name="email" autocomplete="off">
-            <input type="password" placeholder="Mot de passe" required="" name="mdp">
+            <input type="text" placeholder="Email" required="" name="email" autocomplete="off" value="soso@gmail.com">
+            <input type="password" placeholder="Mot de passe" required="" name="mdp" value="1234">
             <input type="submit" value="Se connecter">
         </form>
     </body>
