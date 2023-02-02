@@ -6,6 +6,6 @@
         <title>Accueil</title>
     </head>
     <body>
-        <?php header("location:pages/listeEncheres.php")?>
+        <?php header("location:pages/listeEncheres.php");exit;?>
     </body>
 </html>
