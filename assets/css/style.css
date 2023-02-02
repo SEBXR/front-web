@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: rgb(245, 230, 147);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+form {
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: 1;
+}input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+button[type="submit"],.btn {
+    padding: 10px 20px;
+    background-color: #528edb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+#cards {
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    box-shadow: 2px 2px 10px #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+a {
+    color: #010205; /* Couleur de police */
+    text-decoration: none; /* Retire la sous-rayure */
+    margin-left: 11px;
+    font-weight: bold; 
+    font-size: 16px;
+    font-family: Arial;
+  }
+  
+  /* Effet hover */
+  a:hover {
+    color: #f7b742; /* Couleur de police au survol */
+    text-decoration: underline; /* Ajoute une sous-rayure */
+  }
+
+  
+  

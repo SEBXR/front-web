@@ -1,0 +1,106 @@
+/*corps du hmtl*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-size: cover;
+	background-color:  #171a1f;
+}
+
+/*box du login*/
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	border-radius: 10px;
+	background-color:  #0d1117;
+	border : #4d5055 solid 1px;
+}
+
+
+/*texte en gras du login*/
+.box h1{
+	color: white;
+	font-weight: 500;
+}
+
+/*texte a remplir*/
+.box input[type = "text"],.box input[type = "password"]{
+	border: 0;
+	background-color: #0d1117;
+	color: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s;
+	border : #4d5055 solid 1px;
+}
+
+/*style du texte a remplir*/
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+	width: 280px;
+	border-color: white;
+}
+
+/*style du bouton*/
+.box input[type = "submit"]{
+	border: 0;
+	background: #4404b3;
+	color: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	padding: 14px 40px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+
+/*style de l'index*/
+.box1{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: none;
+	text-align: center;
+	border-radius: 10px;
+	border-color: white;
+	color: white;
+}
+.box1 h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.box1 input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box1 input[type = "submit"]:hover{
+	background-color: white;
+	color: black;
+}
