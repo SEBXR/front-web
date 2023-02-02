@@ -6,6 +6,8 @@
         <title>Accueil</title>
     </head>
     <body>
-        <?php header("location:pages/listeEncheres.php");exit;?>
+        <script>
+            window.href.location= "./pages/listeEncheres.php"
+        </script>
     </body>
 </html>
